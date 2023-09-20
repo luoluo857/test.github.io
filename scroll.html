@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-snap-type: y mandatory;
+        }
+        section{
+            block-size: 100vh;
+            scroll-snap-align: center;
+            scroll-snap-stop: always;
+            display: grid;
+            place-items: center;
+        }
+        section:nth-child(1){
+            background: red;
+        }
+        section:nth-child(2){
+            background: orange;
+        }
+        section:nth-child(3){
+            background: yellow;
+        }
+        section:nth-child(4){
+            background: blue;
+        }
+        section:nth-child(5){
+            background: green;
+        }
+
+        section:nth-child(6){
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- section*10>h1{$title·$} -->
+    <section>
+        <h1>1title·1</h1>
+    </section>
+    <section>
+        <h1>2title·2</h1>
+    </section>
+    <section>
+        <h1>3title·3</h1>
+    </section>
+    <section>
+        <h1>4title·4</h1>
+    </section>
+    <section>
+        <h1>5title·5</h1>
+    </section>
+    <section>
+        <h1>6title·6</h1>
+    </section>
+    <section>
+        <h1>7title·7</h1>
+    </section>
+    <section>
+        <h1>8title·8</h1>
+    </section>
+    <section>
+        <h1>9title·9</h1>
+    </section>
+    <section>
+        <h1>10title·10</h1>
+    </section>
+</body>
+</html>
